@@ -1,0 +1,10 @@
+.stat {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

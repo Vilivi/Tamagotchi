@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tamagotchi</title>
+</head>
+<body>
+    <h1>Tamagotchi</h1>
+    <form>
+        <label for="name">Nom du Tamagotchi</label>
+        <input type="text" id="name" name="name" required>
+        <input type="button" value="Launch" id="launch-game">
+    </form>
+
+    <h2 id="tamaName"></h2>
+    <h3 id="gameOver"></h3>
+    <div class="stat">
+        <div id="stat-satiety">
+            <p id="title-satiety"></p>
+            <span id="satiety"></span>
+        </div>
+
+        <div id="stat-entertainement">
+            <p id="title-entertainment"></p>
+            <span id="entertainment"></span>
+        </div>
+
+        <div id="stat-energy">
+            <p id="title-energy"></p>
+            <span id="energy"></span>
+        </div>
+    </div>
+
+    <script src="Tamagotchi.js"></script>
+    <script src="Service.js"></script>
+    <script src="Actions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
